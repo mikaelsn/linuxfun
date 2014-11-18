@@ -1,0 +1,12 @@
+week1/:
+.
+..
+date.txt
+favoritels.txt
+hostname.txt
+ls-output.txt
+non-login.txt
+rsyncoutput.txt
+rsync-todays-Exactum-cam.sh
+rsyncwhenpopulated.txt
+Sunday.2011.10.30

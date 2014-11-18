@@ -1,0 +1,1 @@
+ls: cannot access /FoBar: No such file or directory

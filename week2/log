@@ -1,0 +1,24 @@
+===
+Figure out how to redirect stdout to one file and stderr to another file simultaneously. Use ls. Present the command.
+
+ls week1/ /FoBar > stdout.txt 2> stderr.txt
+===
+Try the same thing with cat. What do you think cat is doing to your stdin?
+Each line is handled invidiually. 
+===
+Now redirect the output of ls to a file and then count the number of lines in the file. Show that you get the same number of lines using both methods.
+
+ls ~/linuxfun/ > week2/ls.txt | wc -l week2/ls.txt
+===
+Pipeline ls to grep 'e' to wc in order to count the number of matching files. Present your solution and its output.
+
+ls ~ | grep 'e' | wc -l
+===
+ Create a bash script count-homedir.sh which counts the number of files in your home directory.
+#!/bin/bash
+
+ls -l ~ | wc -l
+===
+Write a bash script that lists all files and subdirectories from November 2011. Use ls.
+
+

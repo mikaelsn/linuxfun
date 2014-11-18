@@ -1,0 +1,1 @@
+When connecting ukko with only ssh (interactive session), the .bash_profile is invoked. Thus when removing the bash_alias snippet from it the aliases doesn't work anymore.
